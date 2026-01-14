@@ -6,7 +6,7 @@ let db = new sqlite3.Database(dbName, (err) => {
   if (err) {
     console.error(err.message);
   } else {
-    console.log("Connected to databse");
+    console.log("Connected to database");
     //need to know more about database names and titles before completing below section
     db.run("CREATE TABLE IF NOT EXISTS ");
     if (err) {
