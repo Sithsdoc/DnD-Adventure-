@@ -40,7 +40,7 @@
 
 /* CSS for the new website content*/
 .logo{
-  position:absolute;
+  position: absolute;
   top: 0px;
   left: 0px;
 }
@@ -48,4 +48,9 @@
   position: absolute;
   top: 0px;
   right: 0px;
+}
+.section2{
+  position: relative;
+  top: 60px;
+  left: 600px;
 }

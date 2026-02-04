@@ -25,11 +25,44 @@ import './App.css';
 
 export default function HomePage(){
   return(
-    <div>
-      <header>
-        <p className='logo'>DnD logo here</p>
-        <p className='profile'>Profile</p>
-      </header>
+    <div className='content'>
+      <div className='section1'>
+        <header>
+          <p className='logo'>DnD logo here</p>
+          <p className='profile'>Profile</p>
+        </header>
+      </div>
+
+      <div className='section2'>
+        <label className='speciesBox'>
+          Species:
+          <select name="selectedSpecies">
+            <option value="elf">Elf</option>
+            <option value="dwarf">Dwarf</option>
+            <option value="human">Human</option>
+          </select>
+        </label>
+
+        <label className='classBox'>
+          Class:
+          <select name="selectedClass">
+            <option value="fighter">Fighter</option>
+            <option value="rogue">Rogue</option>
+            <option value="cleric">Cleric</option>
+          </select>
+        </label>
+
+        <label className='subclassBox'>
+          Subclass:
+          <select name="selectedSubClass">
+            <option value="eldritch">Eldritch Knight</option>
+            <option value="rune">Rune Knight</option>
+            <option value="holy">Holy Knight</option>
+          </select>
+        </label>
+
+        <button>Search</button>
+      </div>
     </div>
   );
 }
