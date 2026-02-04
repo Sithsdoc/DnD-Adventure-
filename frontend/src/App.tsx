@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+/*function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -21,6 +21,15 @@ function App() {
       </header>
     </div>
   );
-}
+}*/
 
-export default App;
+export default function HomePage(){
+  return(
+    <div>
+      <header>
+        <p className='logo'>DnD logo here</p>
+        <p className='profile'>Profile</p>
+      </header>
+    </div>
+  );
+}
